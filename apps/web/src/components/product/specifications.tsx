@@ -1,6 +1,6 @@
-import type { Product } from '@/core'
-import { Tag } from '../shared/tag'
+import type { Product } from '@store/core'
 import { IconTag } from '@tabler/icons-react'
+import { Tag } from '../shared/tag'
 
 interface SpecificationsProps {
   product: Product

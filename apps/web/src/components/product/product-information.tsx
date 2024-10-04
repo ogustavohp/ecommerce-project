@@ -1,4 +1,4 @@
-import type { Product } from '@/core'
+import type { Product } from '@store/core'
 import Image from 'next/image'
 import { Specifications } from './specifications'
 

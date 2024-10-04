@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Logo } from '../shared/logo'
 import { CartIcon } from '../shared/cart-icon'
+import { Logo } from '../shared/logo'
 
 export function Header() {
   const quantityOfItems = 0

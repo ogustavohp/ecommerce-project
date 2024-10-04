@@ -1,7 +1,5 @@
 {
-  "cSpell.words": [
-    "priceable"
-  ],
+  "cSpell.words": ["priceable"],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "biomejs.biome"
 }

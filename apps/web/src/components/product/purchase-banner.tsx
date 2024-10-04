@@ -1,6 +1,6 @@
 'use client'
-import { Currency, type Product } from '@/core'
 import { useInstallment } from '@/data/hooks/useInstallment'
+import { Currency, type Product } from '@store/core'
 import { IconCreditCard, IconShoppingCart } from '@tabler/icons-react'
 import { useRouter } from 'next/navigation'
 

@@ -1,4 +1,4 @@
-import type { Product } from '@/core'
+import type { Product } from '@store/core'
 
 interface ProductTitleProps {
   product: Product

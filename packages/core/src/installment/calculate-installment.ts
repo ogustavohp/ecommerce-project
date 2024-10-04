@@ -1,5 +1,5 @@
+import { INTEREST_RATE, MAX_INSTALLMENT } from '../constants'
 import type Installment from './installment'
-import { MAX_INSTALLMENT, INTEREST_RATE } from '../constants'
 
 export default class CalculateInstallment {
   exec(

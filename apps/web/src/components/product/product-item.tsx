@@ -1,5 +1,5 @@
 'use client'
-import { Currency, type Product } from '@/core'
+import { Currency, type Product } from '@store/core'
 import { IconShoppingCartPlus } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'

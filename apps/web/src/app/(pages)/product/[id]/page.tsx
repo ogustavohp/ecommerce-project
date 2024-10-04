@@ -2,7 +2,7 @@ import { ProductInformation } from '@/components/product/product-information'
 import { ProductNotFound } from '@/components/product/product-not-found'
 import { ProductTitle } from '@/components/product/product-title'
 import { PurchaseBanner } from '@/components/product/purchase-banner'
-import { products } from '@/core'
+import { products } from '@store/core'
 
 export default function ProductPage({ params }: { params: { id: string } }) {
   const product = products.find(product => product.id === Number(params.id))

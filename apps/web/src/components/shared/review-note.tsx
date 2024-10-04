@@ -14,11 +14,11 @@ export function ReviewNote({ note, size }: ReviewNoteProps) {
     const starts = []
     for (let i = 1; i <= 5; i++) {
       if (note >= i) {
-        starts.push(<IconStarFilled size={size ?? 12} />)
+        starts.push(<IconStarFilled size={size ?? 12} key={i} />)
       } else if (note >= i - 0.5) {
-        starts.push(<IconStarHalfFilled size={size ?? 12} />)
+        starts.push(<IconStarHalfFilled size={size ?? 12} key={i} />)
       } else {
-        starts.push(<IconStar size={size ?? 12} />)
+        starts.push(<IconStar size={size ?? 12} key={i} />)
       }
     }
     return starts
